@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Table</title>
+    </head>
+    <body>
+        <form method="post" action="patient.php">
+            <table name="patient">
+            <tr>
+                <td>
+                    <label>Name:</label>
+                    <input type="text" placeholder="Name" name="patientname">
+                </td>
+            </tr>
+            <br>
+
+            <tr>
+                <td>
+                    <label>Date of Birth</label>
+                    <input type="date" name="dateofBirth">
+                </td>
+            </tr>
+            <br>
+
+            <tr>
+                <td>
+                    <label>Nationality</label>
+                    <select name="nationality" id="">
+                        <option value="--Select Nationality">Select Nationality</option>
+                        <option value="Ugandan">Uganda</option>
+                        <option value="Kenyan">Kenya</option>
+                        <option value="Tanzanian">Tanzania</option>
+                    </select>
+                </td>
+            </tr>
+            <br>
+
+            <tr>
+                <td>
+                    <label>Diseases</label>
+                    <input type="text" name="diseases">
+                </td>
+            </tr>
+            <br>
+
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                    <input type="radio" option="Male" name="gender" value="Male" >
+                    <label>Male</label>
+                    
+                    <input type="radio" option="Female" name="gender" value="Female">
+                    <label>Female</label>
+                </td>
+            </tr>
+            <br>
+
+            <tr>
+                <td>
+                    <label>Residence</label>
+                    <input type="text" placeholder="Location" name="residence">
+                </td>
+            </tr>
+            <br>
+
+            <tr>
+                <td>
+                    <label>Comment:</label>
+                    <textarea name="comments" id="" cols="10" rows="5"></textarea>
+                </td>
+            </tr>
+            <br>
+
+            <tr>
+                <td>
+                    <input type="submit" value="Register Patient">
+                </td>
+            </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
